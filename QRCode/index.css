@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: source;
+    src: url("source-sans.woff2");
+}
+
+div.page1{
+    width: 100%;
+    height: 100vh;
+    background: #F1F3F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.parent{
+    width: 600px;
+    /* height: 500px; */
+    background: white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0,0.2);
+}
+
+h1.qr_head{
+    font-size: 25px;
+    margin: 40px 0px 0px 0px;
+    text-align: center;
+    color: #FF7939;
+}
+
+input.qr_textinput{
+    width: 100%;
+    height: 60px;
+    outline: none;
+    margin: 20px 0px 0px 0px;
+    font-size: 28px;
+    border: none;
+    font-family: source;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+}
+
+input.qr_textinput::selection{
+    color: white;
+    background: black;
+    
+}
+
+h1.qr_head::selection{
+    color: white;
+    background: #00BFFF;
+}
+
+input.qr_textinput::placeholder{
+    font-size: 28px;
+    font-family: source;
+    color:#9E9E9E;
+    
+}
+
+p.qr_guideline{
+    text-align: center;
+    font-family: source;
+    color: #748eb1;
+    font-size: 18px;
+}
+
+button.generate,button.download_qr{
+    display: block;
+    margin: 20px auto 0px auto;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    height: 40px;
+    font-size: 17px;
+    background: #00BFFF;
+    color: white;
+    width: 130px;
+    font-weight: 550;
+    cursor: pointer;
+
+    
+}
+
+img.qr{
+    display: block;
+    margin: 20px auto 0px auto;
+    width: 160px;
+    height: 160px;
+    
+
+}
+
+button.download_qr{
+    background: #90C52D;
+    width: 150px;
+    margin: 20px auto 25px auto;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: sans-serif;
+
+}
+
+i.fa-solid {
+    margin: 0px 10px 0px 0px;
+    font-size: 18px;
+}
+
+div.page2{
+    width: 100%;
+    height: 100vh;
+    background: #F7F8F9;
+}
+
+h2.new_to_qr{
+    text-align: center;
+    font-family: source;
+    font-size: 40px;
+    color:rgba(0, 0, 0,0.9);
+    padding: 50px 0px 0px 0px;
+}
+
+p.response{
+    text-align: center;
+    font-size: 21px;
+    margin: 25px 0px 0px 0px;
+    color: #636c79;
+}
+
+/* Questions Panel */
+
+div.question-parent{
+    height: 420px;
+    margin: 35px 0px 0px 0px;
+    display: flex;
+
+}
+
+
+div.first-part{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+div.back1-logo{
+    background-image: url("qr-illustration.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 450px;
+    height: 300px;
+    margin: 55px 0px 0px 0px;
+}
+
+/* Second Part Containing Questions */
+
+div.second-part{
+    width: 60%;
+
+}
+
+div.user-ques{
+    width: 700px;
+    height: 370px;
+    display: block;
+    margin: 35px auto 0px auto;
+    overflow: auto;
+    
+}
+
+hr.line{
+    border: 0.5px solid #6575E9;
+
+}
+
+div.ques-1,div.ques-2,div.ques-3{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+h3.what_is_qr,h3.what_are_benefits,h3.how_to_scan{
+    font-size: 23px;
+    font-family: source;
+}
+
+i.fa-chevron-down,i.fa-angle-up{
+    font-size: 20px;
+    color: #C0CED6;
+}
+
+i.uparrow1,i.uparrow2,i.uparrow3{
+    display: none;
+}
+
+p.explain1,p.explain2,p.explain3{
+    line-height: 30px;
+    font-size: 20px;
+    color: #566d80;
+    display: none;
+    margin-bottom: 20px;
+}
+
+
