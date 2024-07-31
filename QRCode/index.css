@@ -8,6 +8,7 @@ body{
     width: 100%;
     height: 100vh;
     font-family: sans-serif;
+    background: #F1F3F4;
 }
 
 @font-face {
@@ -25,36 +26,34 @@ div.page1{
 }
 
 div.parent{
-    width: 600px;
-    /* height: 500px; */
+    width: 45vw;
     background: white;
-    border-radius: 7px;
+    border-radius: 0.7vw;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0,0.2);
 }
 
 h1.qr_head{
-    font-size: 25px;
-    margin: 40px 0px 0px 0px;
+    font-size: 1.83vw;
+    margin: 2.2vw 0px 0px 0px;
     text-align: center;
     color: #FF7939;
 }
 
 input.qr_textinput{
     width: 100%;
-    height: 60px;
+    height: 5vw;
     outline: none;
-    margin: 20px 0px 0px 0px;
-    font-size: 28px;
+    margin: 1.2vw 0px 0px 0px;
+    font-size: 2.2vw;
     border: none;
     font-family: source;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 1.5vw 0px 1.5vw;
     text-align: center;
 }
 
 input.qr_textinput::selection{
     color: white;
     background: black;
-    
 }
 
 h1.qr_head::selection{
@@ -63,58 +62,57 @@ h1.qr_head::selection{
 }
 
 input.qr_textinput::placeholder{
-    font-size: 28px;
+    font-size: 2.1vw;
     font-family: source;
     color:#9E9E9E;
-    
 }
 
 p.qr_guideline{
     text-align: center;
     font-family: source;
     color: #748eb1;
-    font-size: 18px;
+    font-size: 1.5vw;
+    overflow: hidden;
+}
+
+p.qr_guideline span{
+    display:inline-block;
 }
 
 button.generate,button.download_qr{
     display: block;
-    margin: 20px auto 0px auto;
+    margin: 1.7vw auto 0px auto;
     border: none;
     outline: none;
     border-radius: 6px;
-    height: 40px;
-    font-size: 17px;
+    height: 3.4vw;
+    font-size: 1.3vw;
     background: #00BFFF;
     color: white;
-    width: 130px;
+    width: 9.7vw;
     font-weight: 550;
     cursor: pointer;
-
-    
 }
 
 img.qr{
     display: block;
-    margin: 20px auto 0px auto;
-    width: 160px;
-    height: 160px;
-    
-
+    margin: 1.7vw auto 0px auto;
+    width: 11.2vw;
+    height: 11.2vw;
 }
 
 button.download_qr{
     background: #90C52D;
-    width: 150px;
-    margin: 20px auto 25px auto;
-    font-size: 14px;
+    width: 11vw;
+    margin: 1.7vw auto 25px auto;
+    font-size: 1.1vw;
     font-weight: 900;
     font-family: sans-serif;
-
 }
 
 i.fa-solid {
     margin: 0px 10px 0px 0px;
-    font-size: 18px;
+    font-size: 1.28vw;
 }
 
 div.page2{
@@ -126,81 +124,97 @@ div.page2{
 h2.new_to_qr{
     text-align: center;
     font-family: source;
-    font-size: 40px;
+    font-size: 2.9vw;
     color:rgba(0, 0, 0,0.9);
-    padding: 50px 0px 0px 0px;
+    padding: 3.2vw 0px 0px 0px;
 }
 
 p.response{
     text-align: center;
-    font-size: 21px;
-    margin: 25px 0px 0px 0px;
+    font-size: 1.6vw;
+    margin: 1.4vw 0px 0px 0px;
     color: #636c79;
 }
 
 /* Questions Panel */
 
 div.question-parent{
-    height: 420px;
-    margin: 35px 0px 0px 0px;
+    height: 31.8vw;
+    margin: 3.2vw 0px 0px 0px;
     display: flex;
-
 }
 
-
 div.first-part{
-    width: 40%;
+    width: 40vw;
     display: flex;
     justify-content: center;
-   
 }
 
 div.back1-logo{
     background-image: url("qr-illustration.png");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 450px;
-    height: 300px;
-    margin: 55px 0px 0px 0px;
+    width: 65vw;
+    height: 27vw;
+    margin: 2vw 0px 0px 0px;
 }
 
 /* Second Part Containing Questions */
 
 div.second-part{
-    width: 60%;
-
+    width: 60vw;
 }
 
 div.user-ques{
-    width: 700px;
-    height: 370px;
+    width: 52vw;
+    height: 27.1vw;
     display: block;
-    margin: 35px auto 0px auto;
+    margin: 2.8vw auto 0px auto;
     overflow: auto;
-    
+}
+
+/* Scrollbar styling for webkit browsers (Chrome, Safari) */
+.user-ques::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+.user-ques::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.user-ques::-webkit-scrollbar-thumb {
+    background-color: #6575E9;
+    border-radius: 10px;
+    border: 2px solid #f1f1f1;
+}
+
+/* Scrollbar styling for Firefox */
+.user-ques {
+    scrollbar-width: thin;
+    scrollbar-color: #F1F3F4 rgba(255, 255, 255, 0.4);
 }
 
 hr.line{
-    border: 0.5px solid #6575E9;
-
+    border: 0.14vw solid #6575E9;
 }
 
 div.ques-1,div.ques-2,div.ques-3{
     display: flex;
     width: 100%;
-    height: 80px;
+    height: 6.2vw;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5px;
 }
 
 h3.what_is_qr,h3.what_are_benefits,h3.how_to_scan{
-    font-size: 23px;
+    font-size: 1.82vw;
     font-family: source;
 }
 
 i.fa-chevron-down,i.fa-angle-up{
-    font-size: 20px;
+    font-size: 1.6vw;
     color: #C0CED6;
 }
 
@@ -209,11 +223,154 @@ i.uparrow1,i.uparrow2,i.uparrow3{
 }
 
 p.explain1,p.explain2,p.explain3{
-    line-height: 30px;
-    font-size: 20px;
+    line-height: 2.3vw;
+    font-size: 1.52vw;
     color: #566d80;
     display: none;
-    margin-bottom: 20px;
+    margin-bottom: 2.4vw;
 }
 
+@media(300px <= width <= 1200px){
+    
+    div.parent{
+        width: 83vw;
+        border-radius: 1.1vw;
+    }
 
+    h1.qr_head{
+        font-size: 5.4vw;
+        margin: 5.7vw 2.9vw 0px 2.9vw;
+        line-height: 7.2vw;
+    }
+
+    input.qr_textinput{
+        width: 100%;
+        height: 10vw;
+        margin: 1vw 0px 2vw 0px;
+        font-size: 6vw;
+        padding: 0px 4vw 0px 4vw;
+    }
+
+    input.qr_textinput::placeholder{
+        font-size: 5.2vw;
+    }
+
+    p.qr_guideline{
+        font-size: 4.5vw;
+    }
+
+    button.generate,button.download_qr{
+        margin: 4vw auto 0px auto;
+        border-radius: 1.3vw;
+        height: 10.8vw;
+        font-size: 4.5vw;
+        width: 33vw;
+    }
+    
+    img.qr{
+        margin: 6vw auto 0px auto;
+        width: 35vw;
+        height: 35vw;
+    }
+
+    button.download_qr{
+        margin: 5vw auto 6vw auto;
+        font-size: 3.9vw;
+        font-weight: 650;
+        width: 35vw;
+    }
+
+    i.fa-solid {
+        margin: 0px 10px 0px 0px;
+        font-size: 4.3vw;
+    }
+
+    h2.new_to_qr{
+        font-size: 7.6vw;
+        padding: 5vw 0px 0px 0px;
+    }
+
+    p.response{
+        font-size: 4.9vw;
+        margin: 4vw 5vw 0px 5vw;
+        line-height: 6.9vw;
+    }
+
+    div.question-parent{
+        height: auto;
+        flex-direction: column;
+    }
+
+    div.first-part{
+        width: 100vw;
+    }
+
+    div.back1-logo{
+        background-size: contain;
+        width: 100vw;
+        height: 75vw;
+        margin: 1vw 0px 0px 0px;
+    }
+
+    div.second-part{
+        width: 60vw;
+    }
+
+    div.user-ques{
+        width: 90vw;
+        height: auto;
+        margin: 0vw 5vw 5vw 5vw;
+
+    }
+
+    hr.line{
+        border: 0.1vw solid #6575E9;
+    }
+
+    div.ques-1,div.ques-2,div.ques-3{
+        height: 18vw;
+    }
+
+    h3.what_is_qr,h3.what_are_benefits,h3.how_to_scan{
+        font-size: 5.8vw;
+        line-height: 8vw;
+    }
+
+    i.fa-chevron-down,i.fa-angle-up{
+        font-size: 5vw;
+    }
+
+    p.explain1,p.explain2,p.explain3{
+        line-height: 8vw;
+        padding: 0vw 2vw 0vw 0vw;
+        font-size: 5.1vw;
+        margin: 1vw 0vw 6vw 0vw;
+    }
+
+}
+
+@media(600px <= width <= 1200px){
+
+    div.parent{
+        margin: 16vw 0vw 0vw 0vw;
+    }
+
+    div.page2{
+        background: #F1F3F4;
+    }
+    
+    h2.new_to_qr {
+        padding: 15vw 0px 0px 0px;
+    }
+
+}
+
+@media(930px <= width <= 1200px){
+    div.parent{
+        margin: 73vw 0vw 0vw 0vw;
+    }
+
+    h2.new_to_qr {
+        padding: 73vw 0px 0px 0px;
+    }
+}
