@@ -26,8 +26,8 @@
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/rapid-qr.git
-   cd rapid-qr
+   git clone https://github.com/KrishBharadwaj5678/RapidQR.git
+   cd RapidQR
    ```
 
 2. **Open the app:**
