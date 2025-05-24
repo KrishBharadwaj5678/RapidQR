@@ -33,6 +33,43 @@
 2. **Open the app:**
    Just open `index.html` in your browser!
 
-## 🤝 Contributions
+---
 
-Contributions are welcome! Feel free to open issues or submit pull requests.
+## 🤝 Contributing
+
+We welcome contributions!
+
+1. **🍴 Fork the repository**
+
+2. **📥 Clone your fork**
+
+   ```bash
+   git clone https://github.com/KrishBharadwaj5678/RapidQR.git
+   cd RapidQR
+   ````
+
+4. **🌱 Create a new branch**
+
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+5. **🛠️ Make your changes**
+
+6. **📦 Commit your changes**
+
+   ```bash
+   git add .
+   git commit -m "Add: Short description of your change"
+   ```
+
+7. **🚀 Push to GitHub**
+
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+8. **📬 Open a Pull Request**
+
+   * Go to your fork on GitHub and click **Compare & Pull Request**.
+   * Provide a clear and concise description of your changes.
