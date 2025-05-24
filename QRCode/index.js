@@ -112,14 +112,14 @@ document.body.addEventListener("click",(e)=>{
 
 // Down Arrow Functionality
 function downarrows(explain,downarrow,uparrow){
-        explain.style.display="block";
-        downarrow.style.display="none";
-        uparrow.style.display="block";
+   explain.style.display="block";
+   downarrow.style.display="none";
+   uparrow.style.display="block";
 }
 
 // Up Arrow Functionality
 function uparrows(explain,downarrow,uparrow){
-        explain.style.display="none";
-        downarrow.style.display="block";
-        uparrow.style.display="none";
+    explain.style.display="none";
+    downarrow.style.display="block";
+    uparrow.style.display="none";
 }
