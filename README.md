@@ -14,10 +14,12 @@
 
 ## 🛠 Tech Stack
 
-* 🌐 **HTML** — Structure the page
-* 🎨 **CSS** — Style with simplicity and responsiveness
-* 🧠 **JavaScript** — Handle QR code logic & user interaction
-* 🔗 **QR Code API** — For generating QR codes dynamically
+| Technology       | Description                                                  |
+|------------------|--------------------------------------------------------------|
+| 🌐 HTML          | Structure the page                                           |
+| 🎨 CSS           | Style with simplicity and responsiveness                     |
+| 🧠 JavaScript    | Handle QR code logic & user interaction                      |
+| 🔗 QR Code API   | Generate QR codes dynamically using API services             |
 
 ## 🚀 Getting Started
 
