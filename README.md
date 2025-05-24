@@ -1,6 +1,6 @@
 # 🚀 Rapid QR
 
-**Rapid QR** provides a seamless and lightning fast way to generate QR codes for all your needs.⚡
+**Rapid QR** provides a seamless and lightning fast way to generate QR codes for all your needs. Just enter your data, create your QR code instantly, and download it in high quality!⚡
 
 ## 🌟 Features
 
