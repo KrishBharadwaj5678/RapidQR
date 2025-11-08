@@ -14,6 +14,8 @@
 | 🖥️ Responsive Design            | Clean, responsive UI for all devices                                       |
 | 🔒 Privacy Focused              | No data stored                                                             |
 
+---
+
 ## 🛠 Tech Stack
 
 | Technology       | Description                                                  |
@@ -22,6 +24,8 @@
 | 🎨 CSS           | Style with simplicity and responsiveness                     |
 | 🧠 JavaScript    | Handle QR code logic & user interaction                      |
 | 🔗 QR Code API   | Generate QR codes dynamically using API services             |
+
+---
 
 ## 🚀 Getting Started
 
