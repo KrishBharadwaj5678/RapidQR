@@ -2,6 +2,8 @@
 
 **Rapid QR** provides a seamless and lightning fast way to generate QR codes for all your needs. Just enter your data, create your QR code instantly, and download it in high quality!⚡
 
+![RapidQR](https://github.com/KrishBharadwaj5678/RapidQR/raw/main/RapidQR.png)
+
 ## 🌟 Features
 
 | Feature                         | Description                                                                 |
@@ -30,7 +32,13 @@
    cd RapidQR
    ```
 
-2. **Open the app:**
+2. **Navigate to the project folder:**
+
+   ```bash
+   cd QRCode
+   ```
+
+3. **Open the app:**
    Just open `index.html` in your browser!
 
 ---
